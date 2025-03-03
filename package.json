@@ -31,8 +31,7 @@
     "_mac-notarize": "node scripts/notarize.js",
     "devold:frontend-old": "cd frontend && vite",
     "devold": "concurrently  \"npm run dev:backend\" \"npm run dev:electron\"",
-    "devold:react": "cross-env APP_ENV=development BROWSERSLIST_IGNORE_OLD_DATA=true BROWSER=none PORT=4001 react-scripts start",
-    "oldbuild:react": "cross-env BROWSERSLIST_IGNORE_OLD_DATA=true react-scripts build"
+    "devold:react": "cross-env APP_ENV=development BROWSERSLIST_IGNORE_OLD_DATA=true BROWSER=none PORT=4001 react-scripts start"
   },
   "keywords": [],
   "dependencies": {
